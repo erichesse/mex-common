@@ -24,4 +24,4 @@ jobs:
           RENOVATE_REPOSITORIES: "robert-koch-institut/mex-common"
         with:
           configurationFile: renovate.json
-          token: ${{ secrets.WORKFLOW_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
