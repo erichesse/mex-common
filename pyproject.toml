@@ -14,7 +14,8 @@ dependencies = [
 dev = [
     "black~=23.0",
     "click~=8.0.4",
-    "langdetect==1.0.0"
+    "langdetect==1.0.0",
+    "ldap3~=2.8"
 ]
 
 
