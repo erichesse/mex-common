@@ -8,7 +8,7 @@ license = { file = "LICENSE" }
 urls = { Repository = "https://github.com/robert-koch-institut/mex-common" }
 requires-python = "<3.13,>=3.11"
 dependencies = [
-    "backoff>=2.2.1",
+    "backoff>=2.1.0",
     "click>=8.1.7",
     "langdetect>=1.0.9",
     "ldap3>=2.9.1",
