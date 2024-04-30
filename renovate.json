@@ -16,5 +16,7 @@
             ],
             "minimumReleaseAge": null
         }
-    ]
+    ],
+    "enabledManagers": ["github-actions", "html", "pep621", "pip_requirements"]
+    
 }
