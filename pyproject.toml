@@ -12,7 +12,8 @@ dependencies = [
 ]
 [project.optional-dependencies]
 dev = [
-    "black>=23.0.0"
+    "black>=23.0.0",
+    "click~=8.1.5"
 ]
 
 [tool.pdm.dev-dependencies]
