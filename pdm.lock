@@ -5,7 +5,7 @@
 groups = ["default", "dev"]
 strategy = ["cross_platform", "direct_minimal_versions", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:a02bb91a1e40d0bab1268eaafdf7fda6822ce48c64856ef48f51fcc100568f24"
+content_hash = "sha256:793c3d456b10e4a1c75086baf9e89104b2e985418719db5f7af20c5ee7522749"
 
 [[package]]
 name = "backoff"
