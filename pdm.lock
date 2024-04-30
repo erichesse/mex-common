@@ -5,7 +5,7 @@
 groups = ["default", "dev"]
 strategy = ["cross_platform", "direct_minimal_versions", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:a02bb91a1e40d0bab1268eaafdf7fda6822ce48c64856ef48f51fcc100568f24"
+content_hash = "sha256:4332b1f2f6ebdcfd15fd80336c3db84b4c693c722a312443144dde2568c9596e"
 
 [[package]]
 name = "backoff"
@@ -69,14 +69,14 @@ files = [
 
 [[package]]
 name = "langdetect"
-version = "1.0.0"
+version = "1.0.9"
 summary = "Language detection library ported from Google's language-detection."
 groups = ["dev"]
 dependencies = [
     "six",
 ]
 files = [
-    {file = "langdetect-1.0.0.zip", hash = "sha256:58ecd571ab003b417895cdedaba2b8de1619ec7330a5c711ec9ac281d5feaa47"},
+    {file = "langdetect-1.0.9.tar.gz", hash = "sha256:cbc1fef89f8d062739774bd51eda3da3274006b3661d199c2655f6b3f6d605a0"},
 ]
 
 [[package]]
