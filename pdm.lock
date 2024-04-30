@@ -5,17 +5,17 @@
 groups = ["default", "dev", "test"]
 strategy = ["cross_platform", "direct_minimal_versions", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:70dd49846e49dad97659fd5872c2e82d536d40c302a679c0147e4e7798fdc96e"
+content_hash = "sha256:ca54e24f3b9a4abfde0b6963aeba842653272ad48067ec54488388c7a1bc5361"
 
 [[package]]
 name = "backoff"
-version = "2.1.0"
+version = "2.2.1"
 requires_python = ">=3.7,<4.0"
 summary = "Function decoration for backoff and retry"
 groups = ["default"]
 files = [
-    {file = "backoff-2.1.0-py3-none-any.whl", hash = "sha256:140c1deee9387519df5e9bc08eee85836f53b270769ecec32d8fbaceca12eec6"},
-    {file = "backoff-2.1.0.tar.gz", hash = "sha256:7b5a6111f4ff1fc96fa9f017e0d2af0e7ce0f8354354aa7ce341741f1e7482a4"},
+    {file = "backoff-2.2.1-py3-none-any.whl", hash = "sha256:63579f9a0628e06278f7e47b7d7d5b6ce20dc65c5e96a6f3ca99a6adca0396e8"},
+    {file = "backoff-2.2.1.tar.gz", hash = "sha256:03f829f5bb1923180821643f8753b0502c3b682293992485b0eef2807afa5cba"},
 ]
 
 [[package]]
