@@ -3,9 +3,12 @@
 
 [metadata]
 groups = ["default", "dev"]
-strategy = ["cross_platform", "direct_minimal_versions", "inherit_metadata"]
-lock_version = "4.4.1"
-content_hash = "sha256:2a1afa22ae64ce3f3c7e1aa616cf515a86a44ce2d8a320403e7fa579dd71c586"
+strategy = ["direct_minimal_versions", "inherit_metadata"]
+lock_version = "4.5.0"
+content_hash = "sha256:eab381d773b163916f6c6723d5f70736034045c5e973e7616b6f3c653429831a"
+
+[[metadata.targets]]
+requires_python = ">=3.11,<3.13"
 
 [[package]]
 name = "backoff"
@@ -30,6 +33,9 @@ dependencies = [
     "packaging>=22.0",
     "pathspec>=0.9.0",
     "platformdirs>=2",
+    "tomli>=1.1.0; python_version < \"3.11\"",
+    "typed-ast>=1.4.2; python_version < \"3.8\" and implementation_name == \"cpython\"",
+    "typing-extensions>=3.10.0.0; python_version < \"3.10\"",
 ]
 files = [
     {file = "black-23.1.0-cp311-cp311-macosx_10_16_arm64.whl", hash = "sha256:bfffba28dc52a58f04492181392ee380e95262af14ee01d4bc7bb1b1c6ca8d27"},
@@ -49,6 +55,7 @@ summary = "Composable command line interface toolkit"
 groups = ["dev"]
 dependencies = [
     "colorama; platform_system == \"Windows\"",
+    "importlib-metadata; python_version < \"3.8\"",
 ]
 files = [
     {file = "click-8.0.4-py3-none-any.whl", hash = "sha256:6a7a62563bbfabfda3a38f3023a1db4a35978c0abd76f6c9605ecd6554d6d9b1"},
@@ -69,14 +76,14 @@ files = [
 
 [[package]]
 name = "langdetect"
-version = "1.0.0"
+version = "1.0.9"
 summary = "Language detection library ported from Google's language-detection."
 groups = ["dev"]
 dependencies = [
     "six",
 ]
 files = [
-    {file = "langdetect-1.0.0.zip", hash = "sha256:58ecd571ab003b417895cdedaba2b8de1619ec7330a5c711ec9ac281d5feaa47"},
+    {file = "langdetect-1.0.9.tar.gz", hash = "sha256:cbc1fef89f8d062739774bd51eda3da3274006b3661d199c2655f6b3f6d605a0"},
 ]
 
 [[package]]
